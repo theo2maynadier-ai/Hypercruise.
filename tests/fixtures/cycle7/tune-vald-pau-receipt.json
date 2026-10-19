@@ -1,0 +1,577 @@
+{
+  "id": "tune-vald-pau",
+  "originalPoints": "2.3091667,43.5697222|-0.3708,43.2944",
+  "points": "2.3091667,43.5697222|-0.3708,43.2944",
+  "snapping": null,
+  "policy": "strict",
+  "labProfile": "profiles/cycle4",
+  "labClasses": "classes-cycle7",
+  "labMemoryMiB": 32,
+  "discovery": "native_alternatives",
+  "discoverySearch": "bounded",
+  "searchKnobs": "lab_alt_heuristic=5,lab_alt_core_fraction=0.6",
+  "budgetMs": 95000,
+  "wallMs": 17606,
+  "hardKilled": false,
+  "jobs": [
+    {
+      "tag": "fast",
+      "op": "single",
+      "status": "ok",
+      "ms": 4950,
+      "allowedMs": 18000,
+      "searchStats": {
+        "linksProcessed": 1971855,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 35,
+            "links": 499,
+            "queuePeak": 37,
+            "heuristic": 0
+          },
+          {
+            "operation": "pass0",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 438,
+            "links": 73385,
+            "queuePeak": 3360,
+            "heuristic": 3
+          },
+          {
+            "operation": "pass1",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 4064,
+            "links": 1895670,
+            "queuePeak": 3360,
+            "heuristic": 0
+          },
+          {
+            "operation": "re-tracking",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 95,
+            "links": 2301,
+            "queuePeak": 3360,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "fast-v75",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 311,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 5101,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 22,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 77,
+            "links": 2301,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 69,
+            "links": 2301,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "fast-v130",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 218,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 5101,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 9,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 70,
+            "links": 2301,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 61,
+            "links": 2301,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1",
+      "op": "pool",
+      "status": "ok",
+      "ms": 10291,
+      "allowedMs": 45000,
+      "searchStats": {
+        "linksProcessed": 3494288,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 9,
+            "links": 499,
+            "queuePeak": 45,
+            "heuristic": 0
+          },
+          {
+            "operation": "pass0",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 4809,
+            "links": 1530339,
+            "queuePeak": 2334,
+            "heuristic": 3
+          },
+          {
+            "operation": "re-tracking",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 64,
+            "links": 2980,
+            "queuePeak": 2334,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 70,
+            "links": 2980,
+            "queuePeak": 2334,
+            "heuristic": 0
+          },
+          {
+            "operation": "pass0",
+            "alternative": 1,
+            "completed": true,
+            "milliseconds": 2313,
+            "links": 952985,
+            "queuePeak": 2553,
+            "heuristic": 5
+          },
+          {
+            "operation": "re-tracking",
+            "alternative": 1,
+            "completed": true,
+            "milliseconds": 43,
+            "links": 2455,
+            "queuePeak": 2553,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 1,
+            "completed": true,
+            "milliseconds": 46,
+            "links": 2455,
+            "queuePeak": 2553,
+            "heuristic": 0
+          },
+          {
+            "operation": "pass0",
+            "alternative": 2,
+            "completed": true,
+            "milliseconds": 2617,
+            "links": 992663,
+            "queuePeak": 2691,
+            "heuristic": 5
+          },
+          {
+            "operation": "re-tracking",
+            "alternative": 2,
+            "completed": true,
+            "milliseconds": 71,
+            "links": 3466,
+            "queuePeak": 2691,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 2,
+            "completed": true,
+            "milliseconds": 68,
+            "links": 3466,
+            "queuePeak": 2691,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1k0-v75",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 201,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 6459,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 5,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 81,
+            "links": 2980,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 63,
+            "links": 2980,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1k0-v130",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 192,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 6459,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 5,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 85,
+            "links": 2980,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 60,
+            "links": 2980,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1k1-v75",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 170,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 5409,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 5,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 52,
+            "links": 2455,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 55,
+            "links": 2455,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1k1-v130",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 222,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 5409,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 13,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 80,
+            "links": 2455,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 64,
+            "links": 2455,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1k2-v75",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 243,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 7431,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 6,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 111,
+            "links": 3466,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 76,
+            "links": 3466,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    },
+    {
+      "tag": "pool1k2-v130",
+      "op": "fixed",
+      "status": "ok",
+      "ms": 239,
+      "allowedMs": 3000,
+      "searchStats": {
+        "linksProcessed": 7431,
+        "phases": [
+          {
+            "operation": "target-island-check",
+            "alternative": 0,
+            "completed": false,
+            "milliseconds": 5,
+            "links": 499,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "fixed-reference-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 99,
+            "links": 3466,
+            "queuePeak": 42,
+            "heuristic": 0
+          },
+          {
+            "operation": "route-curve-replay",
+            "alternative": 0,
+            "completed": true,
+            "milliseconds": 86,
+            "links": 3466,
+            "queuePeak": 42,
+            "heuristic": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "cards": [
+    {
+      "name": "pool1k0",
+      "role": "economy",
+      "reason": [
+        "lowest_estimated_fuel"
+      ],
+      "km": 257.694,
+      "liters": 12.90840888888889,
+      "seconds": 22209,
+      "litersCommon": 12.90840888888889,
+      "secondsCommon": 22209,
+      "ascent": 2341,
+      "urbanTaggedKm": 11.568000000000005,
+      "mappedStops": 115,
+      "expresswayKm": 0,
+      "estimateOnly": true,
+      "routeGainIsSmall": false,
+      "fuelRelationToReference": "estimated_saving",
+      "savings": {
+        "total": 1.4514577777777777,
+        "driving": 0.4207395555555564,
+        "routing": 1.0307182222222213
+      }
+    },
+    {
+      "name": "fast",
+      "role": "fast",
+      "reason": [
+        "fastest_habitual_among_evaluated"
+      ],
+      "km": 268.987,
+      "liters": 14.359866666666667,
+      "seconds": 19224,
+      "litersCommon": 13.93912711111111,
+      "secondsCommon": 19466,
+      "ascent": 2962,
+      "urbanTaggedKm": 2.6019999999999985,
+      "mappedStops": 27,
+      "expresswayKm": 0,
+      "estimateOnly": true,
+      "routeGainIsSmall": true,
+      "fuelRelationToReference": "reference",
+      "savings": {
+        "total": 0,
+        "driving": 0,
+        "routing": 0
+      }
+    },
+    {
+      "name": "pool1k1",
+      "role": "alternative",
+      "reason": [
+        "ascent:vs:pool1k0",
+        "mapped_stops:vs:pool1k0",
+        "fuel:vs:fast",
+        "ascent:vs:fast"
+      ],
+      "km": 285.021,
+      "liters": 13.061962666666666,
+      "seconds": 24138,
+      "litersCommon": 13.061962666666666,
+      "secondsCommon": 24138,
+      "ascent": 1473,
+      "urbanTaggedKm": 16.727000000000004,
+      "mappedStops": 36,
+      "expresswayKm": 0,
+      "estimateOnly": true,
+      "routeGainIsSmall": false,
+      "fuelRelationToReference": "estimated_saving",
+      "savings": {
+        "total": 1.2979040000000008,
+        "driving": 0.4207395555555564,
+        "routing": 0.8771644444444444
+      }
+    }
+  ],
+  "reference": {
+    "name": "fast",
+    "km": 268.987,
+    "litersHabitual": 14.359866666666667,
+    "secondsHabitual": 19224,
+    "secondsEco": 19466
+  },
+  "note": null,
+  "economyRanking": "close_estimates",
+  "closeEconomyCandidates": [
+    "pool1k0",
+    "pool1k1",
+    "pool1k2"
+  ],
+  "fuelTieTolerance": 0.2581681777777778,
+  "comparisonConvention": "thermal times; one economy profile; habitual reference; exact route/driving gain split",
+  "poolDistinct": 4,
+  "complete": true,
+  "reason": null
+}

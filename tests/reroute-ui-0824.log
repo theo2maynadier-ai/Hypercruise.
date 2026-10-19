@@ -1,0 +1,1 @@
+PASS current-position handoff; GPS session/trace retained, gain reference invalidated, stopped/rejoined/stale results ignored, retry latch released. DOM/native stubs, not device GPS.

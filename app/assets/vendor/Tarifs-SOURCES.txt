@@ -1,0 +1,14 @@
+Hypercruise 0.8.24 - Tarifs expérimentaux classe 1
+
+Tarifs : ASF / VINCI Autoroutes, consultés le 19 octobre 2026
+https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt
+Page officielle : https://www.vinci-autoroutes.com/fr/conseils/autoroute-mode-demploi/tarifs-peage-vinci-autoroutes/
+Localisation des gares : Ministère de la Transition écologique, référentiel 01/01/2025.
+https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede
+Licence des localisations : Open Data Commons Attribution License.
+https://opendatacommons.org/licenses/by/1-0/
+Projection originale Lambert-93 (EPSG:2154), convertie en WGS84 (EPSG:4326).
+223 positions de détection dans la région installée, 105 positions tarifées et 274 couples tarifaires activés. Les autres gares sont des détecteurs de couverture insuffisante.
+Tarifs à vérifier après le 01/02/2027. Hors classe 1 et hors couverture, montant inconnu, jamais assimilé à zéro.
+
+Les prix, géométries et consommations sont des estimations : le prix réellement perçu dépend du véhicule, de la situation et des données à jour.

@@ -1,0 +1,24 @@
+{
+  "version": "0.8.2",
+  "modelVersion": 10,
+  "engineSourceMatchesCycle7": true,
+  "selectorFixtureCases": 8,
+  "allThreeOnFixtures": true,
+  "liveNativeBackendCase": "Valdurenque\u2013Pau",
+  "liveSecondsOnThisPC": 16.207282716,
+  "signatureMatches081": true,
+  "apkZipValid": true,
+  "headlessUiPassed": true,
+  "realAndroidDeviceTested": false,
+  "productionLocalEngineSessionTest": {
+    "cards": 3,
+    "seconds": 16.744967073,
+    "liters": [
+      12.90840888888889,
+      13.061962666666666,
+      14.359866666666667
+    ],
+    "contextTransportStubbed": true,
+    "productionLocalEngineExecuted": true
+  }
+}

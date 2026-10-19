@@ -1,0 +1,48 @@
+/* Hypercruise: substantial rounded 24px pictograms, optical size20, shared everywhere. */
+(function(root){'use strict';
+const accent='var(--icon-accent,#00d991)',secondary='var(--icon-secondary,#142337)';
+const stroke=d=>'<path d="'+d+'" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>';
+const paths={
+ menu:stroke('M4 6h16M4 12h16M4 18h16'),
+ search:'<path fill-rule="evenodd" d="M10 2a8 8 0 1 0 4.9 14.3l5.2 5.2a1.8 1.8 0 0 0 2.5-2.5l-5.2-5.2A8 8 0 0 0 10 2Zm0 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Z"/>',
+ pin:'<path fill-rule="evenodd" d="M12 1.5a8.5 8.5 0 0 0-8.5 8.5c0 5 7.1 11.9 7.7 12.4a1.2 1.2 0 0 0 1.6 0c.6-.5 7.7-7.4 7.7-12.4A8.5 8.5 0 0 0 12 1.5Zm0 4.8a3.7 3.7 0 1 1 0 7.4 3.7 3.7 0 0 1 0-7.4Z"/>',
+ locate:stroke('M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3')+'<circle cx="12" cy="12" r="3.5" fill="'+accent+'"/>',
+ map3d:'<path d="m3 14.5 8.1-4.3a2 2 0 0 1 1.8 0l8.1 4.3a1.6 1.6 0 0 1 0 2.8l-8.1 4.3a2 2 0 0 1-1.8 0L3 17.3a1.6 1.6 0 0 1 0-2.8Z" fill="'+secondary+'"/><path d="m3 6.7 8.1-4.3a2 2 0 0 1 1.8 0L21 6.7a1.6 1.6 0 0 1 0 2.8l-8.1 4.3a2 2 0 0 1-1.8 0L3 9.5a1.6 1.6 0 0 1 0-2.8Z"/>',
+ map2d:'<path fill-rule="evenodd" d="M6 2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Zm0 3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1Z"/>'+stroke('M7 16h3a3 3 0 0 0 3-3v-2a3 3 0 0 1 3-3h1'),
+ route:stroke('M12 21v-7M12 14 4 6m8 8 8-8M3 11V4h7M14 4h7v7'),
+ speed:'<path d="M3 10h10V5a1.2 1.2 0 0 1 2-.9l7 6.9a1.4 1.4 0 0 1 0 2l-7 6.9a1.2 1.2 0 0 1-2-.9v-5H3a2 2 0 0 1 0-4Z"/>',
+ leaf:'<path d="M20.5 2C11 2.5 5 7 5 13.1A6 6 0 0 0 11 19c6.5 0 10-8.5 9.5-17Z"/>'+stroke('M4 22 13 11'),
+ car:'<path fill-rule="evenodd" d="m6.2 6.8 1.6-3A3 3 0 0 1 10.4 2h3.2a3 3 0 0 1 2.6 1.8l1.6 3a5 5 0 0 1 4.2 5v6.5a2 2 0 0 1-4 0V18H6v.3a2 2 0 0 1-4 0v-6.5a5 5 0 0 1 4.2-5Zm2.8 0h6l-1-2H10ZM7 10a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4Zm10 0a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4Z"/>',
+ home:'<path d="M2.5 10.2 10.6 3a2.1 2.1 0 0 1 2.8 0l8.1 7.2c.4.4.5.9.5 1.4V20a2 2 0 0 1-2 2h-5v-7a3 3 0 0 0-6 0v7H4a2 2 0 0 1-2-2v-8.4c0-.5.1-1 .5-1.4Z"/>',
+ work:'<path fill-rule="evenodd" d="M9 2h6a3 3 0 0 1 3 3v1h1a4 4 0 0 1 4 4v2c-3 1-6 1.5-9 1.7V12h-4v1.7C7 13.5 4 13 1 12v-2a4 4 0 0 1 4-4h1V5a3 3 0 0 1 3-3Zm0 3v1h6V5Z"/><path d="M1 14c3 .9 6 1.4 9 1.6V17h4v-1.4c3-.2 6-.7 9-1.6v5a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3Z"/>',
+ history:stroke('M3 9a9 9 0 1 1 1 10M3 3v6h6M12 7v5l3.5 2.5'),
+ wallet:'<path d="M7 6 16 2c3-1.2 5 .6 5 3v2Z" fill="'+accent+'"/><path fill-rule="evenodd" d="M5 7h14a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H5a4 4 0 0 1-4-4v-7a4 4 0 0 1 4-4Zm8.8 3c-2.4 0-4 1.4-4.6 3H8v1.5h1v1H8V17h1.2c.7 1.7 2.2 2.8 4.6 2.8h2V18h-2a2.5 2.5 0 0 1-2.2-1H15v-1.5h-4v-1h4V13h-3.3a2.5 2.5 0 0 1 2.1-1.2h2V10Z"/>',
+ settings:stroke('M3 5h18M3 12h18M3 19h18')+'<circle cx="8" cy="5" r="3.2"/><circle cx="16" cy="12" r="3.2" fill="'+accent+'"/><circle cx="10" cy="19" r="3.2"/>',
+ nav:'<path d="m10.7 2.7-8.1 17c-.6 1.2.5 2.5 1.8 2l7.6-3.4 7.6 3.4c1.3.5 2.4-.8 1.8-2l-8.1-17a1.4 1.4 0 0 0-2.6 0Z"/>',
+ north:'<path d="M11 2.5a1.2 1.2 0 0 1 2 0l8 18.2c.5 1.1-.7 2.1-1.7 1.4L12 17l-7.3 5.1c-1 .7-2.2-.3-1.7-1.4Z"/>',
+ export:stroke('M3 15v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4M12 14V3m-5 5 5-5 5 5'),
+ download:stroke('M3 16v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3M12 3v12m-5-5 5 5 5-5'),
+ info:'<path fill-rule="evenodd" d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22Zm0 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm-1.5 5h3v9h-3Z"/>',
+ lock:'<path fill-rule="evenodd" d="M6 8V6a6 6 0 0 1 12 0v2a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3Zm3 0h6V6a3 3 0 0 0-6 0Z"/>',
+ flag:'<path d="M4 2a1.5 1.5 0 0 1 3 0v1c5-4 8 4 13 0v11c-5 4-8-4-13 0v7a1.5 1.5 0 0 1-3 0Z"/>',
+ road:'<path d="M6 2h4L6 22H1ZM14 2h4l5 20h-5Z"/>'+stroke('M12 3v3m0 5v2m0 6v2'),
+ mountain:'<path d="m1.5 19.5 8.5-16a2.3 2.3 0 0 1 4 0l8.5 16c.6 1.2-.1 2.5-1.5 2.5H3c-1.4 0-2.1-1.3-1.5-2.5ZM9 11h6l-3-5Z" fill-rule="evenodd"/>',
+ motorway:'<path d="M5 2h5L7 22H1ZM14 2h5l4 20h-6Z"/>'+stroke('M2 9h20M12 2v3m0 9v2m0 4v2'),
+ toll:'<path fill-rule="evenodd" d="M5 2h9a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Zm1 4v4h7V6Z"/><rect x="13" y="12" width="10" height="4" rx="2" fill="'+accent+'"/>',
+ fuel:'<path fill-rule="evenodd" d="M5 2h8a3 3 0 0 1 3 3v17H2V5a3 3 0 0 1 3-3Zm0 3v6h8V5Z"/>'+stroke('M17 5l4 4v9a2 2 0 0 1-4 0v-4'),
+ sound:'<path d="M3 8h4l6-5v18l-6-5H3a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z"/><path d="M17 7a8 8 0 0 1 0 10m3-13a12 12 0 0 1 0 16" fill="none" stroke="'+accent+'" stroke-width="3" stroke-linecap="round"/>',
+ muted:'<path d="M3 8h4l6-5v18l-6-5H3a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z"/><path d="m8 21 13-16" fill="none" stroke="'+accent+'" stroke-width="3.5" stroke-linecap="round"/>',
+ back:stroke('m14.5 4-8 8 8 8'),
+ arrow:stroke('M4 12h16m-7-7 7 7-7 7'),
+ chevron:stroke('m9 5 7 7-7 7'),
+ check:stroke('m4 12 5 5L20 6'),
+ close:stroke('M6 6l12 12M18 6 6 18'),
+ swap:stroke('M7 21V3m-4 4 4-4 4 4M17 3v18m-4-4 4 4 4-4'),
+ expand:stroke('M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5'),
+ edit:'<path d="m15.5 2.5 6 6-11.8 12-7.1 1.8L4 15.4ZM17 1a2 2 0 0 1 2.8 0l3.2 3.2a2 2 0 0 1 0 2.8l-1 1-6-6Z"/>',
+ goal:'<path fill-rule="evenodd" d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22Zm0 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14Zm0 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/>',
+ play:'<path d="M6 2.6c-1-.6-2 .1-2 1.3v16.2c0 1.2 1 1.9 2 1.3l15-8a1.6 1.6 0 0 0 0-2.8Z"/>',
+ list:'<circle cx="4" cy="5" r="2"/><circle cx="4" cy="12" r="2"/><circle cx="4" cy="19" r="2"/>'+stroke('M10 5h11M10 12h11M10 19h11'),
+};
+root.HCI=function(name){return '<svg class="ui-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">'+(paths[name]||paths.route)+'</svg>';};root.HCI.names=Object.keys(paths);
+})(typeof window!=='undefined'?window:globalThis);

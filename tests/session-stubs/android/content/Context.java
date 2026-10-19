@@ -1,0 +1,1 @@
+package android.content; public class Context { private final java.io.File files,assets; public Context(java.io.File f,java.io.File a){files=f;assets=a;} public java.io.File getFilesDir(){return files;} public android.content.res.AssetManager getAssets(){return new android.content.res.AssetManager(assets);} }

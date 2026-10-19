@@ -1,0 +1,7 @@
+{
+  "name": "hypercruise-release-security",
+  "private": true,
+  "version": "0.8.25",
+  "description": "Reproducible staging transformation for Hypercruise beta builds",
+  "dependencies": { "terser": "5.36.0" }
+}

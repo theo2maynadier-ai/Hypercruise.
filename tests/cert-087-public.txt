@@ -1,0 +1,4 @@
+Signer #1 certificate DN: CN=Hypercruise Personal App, C=FR
+Signer #1 certificate SHA-256 digest: fde414e836d3c604d29392da8523040b14f51ba6060897f819a16a215e5a6252
+Signer #1 certificate SHA-1 digest: b36d149155cd64630ac4043b39e2acc564c0b5d2
+Signer #1 certificate MD5 digest: 466f78e52a3becc1df6cb856f21ab707

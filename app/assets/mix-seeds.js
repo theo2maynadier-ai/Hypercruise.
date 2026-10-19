@@ -1,0 +1,9 @@
+(function(root){'use strict';const C=root.HC,D=root.HCTollData||(typeof require==='function'?require('./toll-data.js'):null);
+function seeds(route,max=5){if(!route?.coordinates?.length||route.km<35)return [];const stations=new Map(),pts=route.coordinates,cum=route.cumulative;
+ for(const s of D.stations){if(s.kind!=='closed')continue;let nearest=null;for(let i=1;i<pts.length;i++){const a=pts[i-1],b=pts[i];if(s.lat<Math.min(a[0],b[0])-.025||s.lat>Math.max(a[0],b[0])+.025||s.lon<Math.min(a[1],b[1])-.035||s.lon>Math.max(a[1],b[1])+.035)continue;const q=C.project([s.lat,s.lon],a,b);if(q.meters>2500||nearest&&nearest.meters<=q.meters)continue;nearest={...s,meters:q.meters,progress:cum[i-1]+q.t*(cum[i]-cum[i-1])};}if(nearest&&(!stations.has(s.key)||nearest.meters<stations.get(s.key).meters))stations.set(s.key,nearest);}
+ const ordered=[...stations.values()].sort((a,b)=>a.progress-b.progress),list=[];
+ for(let i=1;i<ordered.length;i++){const a=ordered[i-1],b=ordered[i],span=b.progress-a.progress,price=D.pricesCents[[a.key,b.key].sort().join('~')];if(span<2000||span>60000||!Number.isFinite(price)||price<=0)continue;const progress=(a.progress+b.progress)/2;if(progress<4000||progress>cum.at(-1)-4000)continue;const seg=route.roads.segments.find(s=>progress>=s.from&&progress<=s.to);if(seg?.roadClass!=='motorway'||!seg.toll)continue;const p=C.pointAt(route,progress);list.push({label:a.label+' / '+b.label,nogo:[p[1],p[0],150].join(','),progress,span,cents:price,from:a.key,to:b.key});}
+ const chosen=[];for(const s of list.sort((a,b)=>b.cents-a.cents||a.span-b.span))if(chosen.every(q=>Math.abs(q.progress-s.progress)>5000)){chosen.push(s);if(chosen.length===max)break;}return chosen;
+}
+root.HCMixSeeds={seeds};if(typeof module!=='undefined')module.exports=root.HCMixSeeds;
+})(typeof window!=='undefined'?window:globalThis);

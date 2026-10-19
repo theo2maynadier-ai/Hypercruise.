@@ -1,0 +1,18 @@
+{
+  "version": "0.8.3",
+  "engineModel": 10,
+  "engineUnchanged": true,
+  "extremilingActualSession": {
+    "route": "Valdurenque\u2013Pau",
+    "cards": 3,
+    "secondsPC": 67.991
+  },
+  "mapInstall": {
+    "validPinnedZIP": true,
+    "truncatedRejected": true,
+    "sameSizeWrongSHARejected": true,
+    "pathTraversalRejected": true,
+    "existingMapsPreservedOnRejectedArchive": true
+  },
+  "physicalAndroidDeviceTested": false
+}

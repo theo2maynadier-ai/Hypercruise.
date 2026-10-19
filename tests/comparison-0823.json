@@ -1,0 +1,2831 @@
+{
+  "generated": "2026-10-19T09:36:41.096Z",
+  "basis": "Actual APK LocalRouter and JS planners; identical pinned RD5; Android transport substituted; no live traffic or device GPS",
+  "rows": [
+    {
+      "id": "pau-urban",
+      "from": {
+        "lon": -0.4099,
+        "lat": 43.3218
+      },
+      "to": {
+        "lon": -0.3249,
+        "lat": 43.2939
+      },
+      "0822": {
+        "elapsedMs": 1663.965297,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 9.782,
+            "minutes": 27.033333333333335,
+            "liters": 0.5721345555555556,
+            "per100": 5.848850496376565,
+            "majorPercent": 74.38151707217338,
+            "localKm": 2.5060000000000002,
+            "classes": {
+              "residential": 2.5060000000000002,
+              "secondary": 3.5089999999999986,
+              "primary": 0.395,
+              "tertiary": 3.3719999999999994
+            }
+          },
+          {
+            "role": "alternative",
+            "label": "Alternative",
+            "candidate": "pool1k1",
+            "km": 9.728,
+            "minutes": 30.716666666666665,
+            "liters": 0.6376581111111111,
+            "per100": 6.554873675073099,
+            "majorPercent": 51.295230263157876,
+            "localKm": 4.738000000000001,
+            "classes": {
+              "residential": 4.738000000000001,
+              "primary": 0.37,
+              "secondary": 2.1609999999999987,
+              "tertiary": 2.4589999999999996
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Rapide estim\u00e9",
+            "candidate": "fast",
+            "km": 14.096,
+            "minutes": 23.116666666666667,
+            "liters": 0.7610878888888889,
+            "per100": 5.3993181674864426,
+            "majorPercent": 90.58598183881952,
+            "localKm": 1.327,
+            "classes": {
+              "residential": 1.327,
+              "primary": 12.699,
+              "primary_link": 0.07
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 461
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 105
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 74
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 656
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 53
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 45
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 42
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 49
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 45
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 46
+          }
+        ],
+        "errors": []
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 9.782,
+          "minutes": 27.033333333333335,
+          "liters": 0.5721345555555556,
+          "per100": 5.848850496376565,
+          "majorPercent": 74.38151707217338,
+          "localKm": 2.5060000000000002,
+          "classes": {
+            "residential": 2.5060000000000002,
+            "secondary": 3.5089999999999986,
+            "primary": 0.395,
+            "tertiary": 3.3719999999999994
+          }
+        },
+        {
+          "oldRole": "alternative",
+          "oldCandidate": "pool1k1",
+          "label": "Old geometry / new model",
+          "km": 9.728,
+          "minutes": 30.716666666666665,
+          "liters": 0.6376581111111111,
+          "per100": 6.554873675073099,
+          "majorPercent": 51.295230263157876,
+          "localKm": 4.738000000000001,
+          "classes": {
+            "residential": 4.738000000000001,
+            "primary": 0.37,
+            "secondary": 2.1609999999999987,
+            "tertiary": 2.4589999999999996
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 3138.267325,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "compromise",
+            "km": 10.024,
+            "minutes": 26.183333333333334,
+            "liters": 0.5931703888888888,
+            "per100": 5.91750188436641,
+            "majorPercent": 86.48244213886673,
+            "localKm": 1.3549999999999986,
+            "classes": {
+              "residential": 1.3550000000000002,
+              "secondary": 3.5089999999999986,
+              "primary": 0.395,
+              "tertiary": 4.765
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "fast",
+            "km": 15.466,
+            "minutes": 22.833333333333332,
+            "liters": 0.7921662777777778,
+            "per100": 5.121985502248661,
+            "majorPercent": 93.88982283719125,
+            "localKm": 0.9450000000000003,
+            "classes": {
+              "residential": 0.9450000000000002,
+              "secondary": 0.617,
+              "primary": 13.903999999999998
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 674
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 97
+          },
+          {
+            "tag": "fast-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 78
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 67
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 185
+          },
+          {
+            "tag": "compromise-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 46
+          },
+          {
+            "tag": "compromise-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 57
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 49
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 477
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 45
+          },
+          {
+            "tag": "pool1k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 41
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 52
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 64
+          },
+          {
+            "tag": "pool1k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 51
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 37
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 40
+          },
+          {
+            "tag": "pool1k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 42
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 39
+          },
+          {
+            "tag": "pool4",
+            "op": "pool",
+            "status": "ok",
+            "ms": 309
+          },
+          {
+            "tag": "pool4k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 30
+          },
+          {
+            "tag": "pool4k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 30
+          },
+          {
+            "tag": "pool4k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 31
+          },
+          {
+            "tag": "pool4k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 33
+          },
+          {
+            "tag": "pool4k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 31
+          },
+          {
+            "tag": "pool4k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 37
+          },
+          {
+            "tag": "pool4k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 30
+          },
+          {
+            "tag": "pool4k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 32
+          },
+          {
+            "tag": "pool4k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 47
+          },
+          {
+            "tag": "pool4k3-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 46
+          },
+          {
+            "tag": "pool4k3-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 42
+          },
+          {
+            "tag": "pool4k3-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 43
+          },
+          {
+            "tag": "corridor",
+            "op": "pool",
+            "status": "error",
+            "ms": 8
+          }
+        ],
+        "errors": [
+          "ParseException hypercruise-306-thermal.brf at line 1: For input string: \"-0.35586091355796273,43.30917205876382,700\""
+        ]
+      }
+    },
+    {
+      "id": "castres-valdurenque",
+      "from": {
+        "lon": 2.2339,
+        "lat": 43.6082
+      },
+      "to": {
+        "lon": 2.3091667,
+        "lat": 43.5697222
+      },
+      "0822": {
+        "elapsedMs": 952.8150249999999,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 8.618,
+            "minutes": 17.683333333333334,
+            "liters": 0.5867639444444445,
+            "per100": 6.808586034398288,
+            "majorPercent": 67.60269203991645,
+            "localKm": 2.7920000000000007,
+            "classes": {
+              "residential": 2.4929999999999994,
+              "tertiary": 0.189,
+              "living_street": 0.16799999999999998,
+              "tertiary_link": 0.014,
+              "primary": 2.2329999999999997,
+              "secondary": 3.39,
+              "unclassified": 0.131
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "pool1k1",
+            "km": 9.215,
+            "minutes": 19.866666666666667,
+            "liters": 0.5938730555555556,
+            "per100": 6.444634352203533,
+            "majorPercent": 68.24742268041237,
+            "localKm": 2.926,
+            "classes": {
+              "residential": 2.6269999999999993,
+              "tertiary": 1.8319999999999999,
+              "living_street": 0.16799999999999998,
+              "primary": 1.067,
+              "secondary": 3.39,
+              "unclassified": 0.131
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 79
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 24
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 148
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "extreme",
+            "op": "single",
+            "status": "ok",
+            "ms": 40
+          },
+          {
+            "tag": "extreme-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "extreme-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 25
+          },
+          {
+            "tag": "pool4",
+            "op": "pool",
+            "status": "ok",
+            "ms": 169
+          },
+          {
+            "tag": "pool4k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "pool4k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 26
+          },
+          {
+            "tag": "pool4k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "pool4k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 24
+          },
+          {
+            "tag": "pool4k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "pool4k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 18
+          },
+          {
+            "tag": "pool4k3-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 18
+          },
+          {
+            "tag": "pool4k3-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "corridor",
+            "op": "pool",
+            "status": "error",
+            "ms": 0
+          }
+        ],
+        "errors": [
+          "ParseException hypercruise-306-thermal.brf at line 1: For input string: \"2.270254651120011,43.58850249883517,700\""
+        ]
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 8.618,
+          "minutes": 17.7,
+          "liters": 0.586372,
+          "per100": 6.804038059874681,
+          "majorPercent": 67.60269203991645,
+          "localKm": 2.7920000000000007,
+          "classes": {
+            "residential": 2.4929999999999994,
+            "tertiary": 0.189,
+            "living_street": 0.16799999999999998,
+            "tertiary_link": 0.014,
+            "primary": 2.2329999999999997,
+            "secondary": 3.39,
+            "unclassified": 0.131
+          }
+        },
+        {
+          "oldRole": "compromise",
+          "oldCandidate": "pool1k1",
+          "label": "Old geometry / new model",
+          "km": 9.215,
+          "minutes": 19.883333333333333,
+          "liters": 0.5934810555555555,
+          "per100": 6.440380418399952,
+          "majorPercent": 68.24742268041237,
+          "localKm": 2.926,
+          "classes": {
+            "residential": 2.6269999999999993,
+            "tertiary": 1.8319999999999999,
+            "living_street": 0.16799999999999998,
+            "primary": 1.067,
+            "secondary": 3.39,
+            "unclassified": 0.131
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 1178.4732279999998,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 9.029,
+            "minutes": 17.95,
+            "liters": 0.6374493888888889,
+            "per100": 7.060022027787007,
+            "majorPercent": 93.96389411895004,
+            "localKm": 0.5450000000000017,
+            "classes": {
+              "residential": 0.41400000000000003,
+              "tertiary": 0.8830000000000001,
+              "primary": 3.6659999999999986,
+              "secondary": 3.935,
+              "unclassified": 0.131
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "pool1k0",
+            "km": 9.029,
+            "minutes": 17.883333333333333,
+            "liters": 0.6518755555555555,
+            "per100": 7.219797935048793,
+            "majorPercent": 93.96389411895004,
+            "localKm": 0.5450000000000017,
+            "classes": {
+              "residential": 0.41400000000000003,
+              "tertiary": 0.8830000000000001,
+              "primary": 3.6659999999999986,
+              "secondary": 3.935,
+              "unclassified": 0.131
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 106
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "fast-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 28
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 66
+          },
+          {
+            "tag": "compromise-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          },
+          {
+            "tag": "compromise-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 28
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 137
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 19
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "pool1k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "pool1k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "pool4",
+            "op": "pool",
+            "status": "ok",
+            "ms": 164
+          },
+          {
+            "tag": "pool4k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 19
+          },
+          {
+            "tag": "pool4k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 28
+          },
+          {
+            "tag": "pool4k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 25
+          },
+          {
+            "tag": "pool4k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "pool4k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 19
+          },
+          {
+            "tag": "pool4k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "pool4k3-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          },
+          {
+            "tag": "pool4k3-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 23
+          },
+          {
+            "tag": "pool4k3-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 22
+          },
+          {
+            "tag": "corridor",
+            "op": "pool",
+            "status": "error",
+            "ms": 1
+          }
+        ],
+        "errors": [
+          "ParseException hypercruise-306-thermal.brf at line 1: For input string: \"2.2682238109973443,43.5907794278758,700\""
+        ]
+      }
+    },
+    {
+      "id": "toulouse-cross",
+      "from": {
+        "lon": 1.493,
+        "lat": 43.613
+      },
+      "to": {
+        "lon": 1.384,
+        "lat": 43.604
+      },
+      "0822": {
+        "elapsedMs": 2304.6009460000005,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 17.588,
+            "minutes": 25.133333333333333,
+            "liters": 0.7340551111111111,
+            "per100": 4.173613322214641,
+            "majorPercent": 96.05412781441892,
+            "localKm": 0.6939999999999991,
+            "classes": {
+              "residential": 0.108,
+              "tertiary": 1.8099999999999992,
+              "secondary": 1.313,
+              "motorway_link": 2.151,
+              "motorway": 11.620000000000001,
+              "unclassified": 0.5860000000000001
+            }
+          },
+          {
+            "role": "alternative",
+            "label": "Alternative",
+            "candidate": "pool1k1",
+            "km": 12.008,
+            "minutes": 39.8,
+            "liters": 0.8233271666666667,
+            "per100": 6.856488729735733,
+            "majorPercent": 70.24483677548302,
+            "localKm": 3.5729999999999986,
+            "classes": {
+              "residential": 2.478999999999999,
+              "tertiary": 1.3289999999999997,
+              "secondary": 1.4760000000000002,
+              "unclassified": 0.9210000000000002,
+              "service": 0.173,
+              "primary": 3.411999999999998,
+              "motorway_link": 0.8790000000000001,
+              "motorway": 1.339
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Rapide estim\u00e9",
+            "candidate": "fast",
+            "km": 18.41,
+            "minutes": 23.116666666666667,
+            "liters": 0.8894732222222222,
+            "per100": 4.831467801315711,
+            "majorPercent": 92.03150461705594,
+            "localKm": 1.4669999999999987,
+            "classes": {
+              "residential": 0.889,
+              "tertiary": 0.49100000000000005,
+              "secondary": 0.8230000000000002,
+              "service": 0.12400000000000001,
+              "motorway_link": 2.1029999999999998,
+              "motorway": 13.525999999999998,
+              "unclassified": 0.454
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 500
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 159
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 117
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 713
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 128
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 119
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 146
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 138
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 115
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 128
+          }
+        ],
+        "errors": []
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 17.588,
+          "minutes": 25.133333333333333,
+          "liters": 0.7340551111111111,
+          "per100": 4.173613322214641,
+          "majorPercent": 96.05412781441892,
+          "localKm": 0.6939999999999991,
+          "classes": {
+            "residential": 0.108,
+            "tertiary": 1.8099999999999992,
+            "secondary": 1.313,
+            "motorway_link": 2.151,
+            "motorway": 11.620000000000001,
+            "unclassified": 0.5860000000000001
+          }
+        },
+        {
+          "oldRole": "alternative",
+          "oldCandidate": "pool1k1",
+          "label": "Old geometry / new model",
+          "km": 12.008,
+          "minutes": 39.9,
+          "liters": 0.8222636666666666,
+          "per100": 6.847632134132801,
+          "majorPercent": 70.24483677548302,
+          "localKm": 3.5729999999999986,
+          "classes": {
+            "residential": 2.478999999999999,
+            "tertiary": 1.3289999999999997,
+            "secondary": 1.4760000000000002,
+            "unclassified": 0.9210000000000002,
+            "service": 0.173,
+            "primary": 3.411999999999998,
+            "motorway_link": 0.8790000000000001,
+            "motorway": 1.339
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 3451.753307,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 17.588,
+            "minutes": 25.133333333333333,
+            "liters": 0.7340551111111111,
+            "per100": 4.173613322214641,
+            "majorPercent": 96.05412781441892,
+            "localKm": 0.6939999999999991,
+            "classes": {
+              "residential": 0.108,
+              "tertiary": 1.8099999999999992,
+              "secondary": 1.313,
+              "motorway_link": 2.151,
+              "motorway": 11.620000000000001,
+              "unclassified": 0.5860000000000001
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "fast",
+            "km": 18.207,
+            "minutes": 21.8,
+            "liters": 0.8221434444444444,
+            "per100": 4.515534928568377,
+            "majorPercent": 94.01329159114624,
+            "localKm": 1.0900000000000034,
+            "classes": {
+              "residential": 0.636,
+              "tertiary": 0.388,
+              "secondary": 1.1000000000000003,
+              "motorway_link": 2.1029999999999998,
+              "motorway": 13.525999999999998,
+              "unclassified": 0.454
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "fast",
+            "km": 18.207,
+            "minutes": 21.333333333333332,
+            "liters": 0.8602966666666667,
+            "per100": 4.72508742058915,
+            "majorPercent": 94.01329159114624,
+            "localKm": 1.0900000000000034,
+            "classes": {
+              "residential": 0.636,
+              "tertiary": 0.388,
+              "secondary": 1.1000000000000003,
+              "motorway_link": 2.1029999999999998,
+              "motorway": 13.525999999999998,
+              "unclassified": 0.454
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 490
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 145
+          },
+          {
+            "tag": "fast-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 141
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 136
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 356
+          },
+          {
+            "tag": "compromise-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 128
+          },
+          {
+            "tag": "compromise-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 121
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 133
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 573
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 131
+          },
+          {
+            "tag": "pool1k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 113
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 125
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 137
+          },
+          {
+            "tag": "pool1k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 131
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 123
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 144
+          },
+          {
+            "tag": "pool1k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 123
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 117
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "pau-bayonne",
+      "from": {
+        "lon": -0.3708,
+        "lat": 43.2951
+      },
+      "to": {
+        "lon": -1.4748,
+        "lat": 43.4929
+      },
+      "0822": {
+        "elapsedMs": 2565.637316999999,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 111.222,
+            "minutes": 114.05,
+            "liters": 4.144125333333333,
+            "per100": 3.7259942577307847,
+            "majorPercent": 98.92287497077915,
+            "localKm": 1.1980000000000075,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.042,
+              "tertiary": 0.9110000000000003,
+              "secondary": 7.350000000000004,
+              "primary": 3.8089999999999997,
+              "motorway_link": 1.8579999999999999,
+              "motorway": 96.09600000000003
+            }
+          },
+          {
+            "role": "alternative",
+            "label": "Alternative",
+            "candidate": "pool1k1",
+            "km": 107.258,
+            "minutes": 144.71666666666667,
+            "liters": 4.771248,
+            "per100": 4.448384269704824,
+            "majorPercent": 93.20610117660222,
+            "localKm": 7.286999999999992,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 2.4320000000000004,
+              "tertiary": 19.285999999999994,
+              "secondary": 19.93300000000001,
+              "service": 0.07400000000000001,
+              "primary": 60.75200000000001,
+              "unclassified": 4.625
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Rapide estim\u00e9",
+            "candidate": "fast",
+            "km": 115.33,
+            "minutes": 80.71666666666667,
+            "liters": 7.326273777777778,
+            "per100": 6.352444097613611,
+            "majorPercent": 98.34301569409521,
+            "localKm": 1.9109999999999872,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.6759999999999995,
+              "secondary": 4.7509999999999994,
+              "tertiary": 4.047999999999999,
+              "secondary_link": 0.047,
+              "service": 0.079,
+              "primary": 0.5830000000000002,
+              "motorway_link": 1.9769999999999999,
+              "motorway": 102.01300000000003
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 675
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 67
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 1122
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 71
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 66
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 109
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 106
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 83
+          }
+        ],
+        "errors": []
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 111.222,
+          "minutes": 114.05,
+          "liters": 4.144125333333333,
+          "per100": 3.7259942577307847,
+          "majorPercent": 98.92287497077915,
+          "localKm": 1.1980000000000075,
+          "classes": {
+            "living_street": 0.156,
+            "residential": 1.042,
+            "tertiary": 0.9110000000000003,
+            "secondary": 7.350000000000004,
+            "primary": 3.8089999999999997,
+            "motorway_link": 1.8579999999999999,
+            "motorway": 96.09600000000003
+          }
+        },
+        {
+          "oldRole": "alternative",
+          "oldCandidate": "pool1k1",
+          "label": "Old geometry / new model",
+          "km": 107.258,
+          "minutes": 146.58333333333334,
+          "liters": 4.740468888888889,
+          "per100": 4.419687938325243,
+          "majorPercent": 93.20610117660222,
+          "localKm": 7.286999999999992,
+          "classes": {
+            "living_street": 0.156,
+            "residential": 2.4320000000000004,
+            "tertiary": 19.285999999999994,
+            "secondary": 19.93300000000001,
+            "service": 0.07400000000000001,
+            "primary": 60.75200000000001,
+            "unclassified": 4.625
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 3891.287053,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "compromise",
+            "km": 111.222,
+            "minutes": 114.05,
+            "liters": 4.144125333333333,
+            "per100": 3.7259942577307847,
+            "majorPercent": 98.92287497077915,
+            "localKm": 1.1980000000000075,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.042,
+              "tertiary": 0.9110000000000003,
+              "secondary": 7.350000000000004,
+              "primary": 3.8089999999999997,
+              "motorway_link": 1.8579999999999999,
+              "motorway": 96.09600000000003
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "fast",
+            "km": 115.489,
+            "minutes": 102.55,
+            "liters": 4.685504888888889,
+            "per100": 4.057100580045622,
+            "majorPercent": 98.37733463793089,
+            "localKm": 1.8739999999999952,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.6759999999999995,
+              "secondary": 2.0839999999999987,
+              "tertiary": 3.948999999999999,
+              "service": 0.042,
+              "primary": 0.9680000000000004,
+              "motorway_link": 2.6999999999999997,
+              "motorway": 103.57700000000003,
+              "primary_link": 0.33699999999999997
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "fast",
+            "km": 115.489,
+            "minutes": 79.36666666666666,
+            "liters": 7.366439555555556,
+            "per100": 6.378477219090612,
+            "majorPercent": 98.37733463793089,
+            "localKm": 1.8739999999999952,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.6759999999999995,
+              "secondary": 2.0839999999999987,
+              "tertiary": 3.948999999999999,
+              "service": 0.042,
+              "primary": 0.9680000000000004,
+              "motorway_link": 2.6999999999999997,
+              "motorway": 103.57700000000003,
+              "primary_link": 0.33699999999999997
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 651
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "fast-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 82
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 84
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 817
+          },
+          {
+            "tag": "compromise-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 94
+          },
+          {
+            "tag": "compromise-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 81
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 96
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 1021
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "pool1k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 80
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 63
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 86
+          },
+          {
+            "tag": "pool1k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 87
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 82
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "pool1k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 68
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 69
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "valdurenque-pau",
+      "from": {
+        "lon": 2.3091667,
+        "lat": 43.5697222
+      },
+      "to": {
+        "lon": -0.3708,
+        "lat": 43.2944
+      },
+      "0822": {
+        "elapsedMs": 12374.165571999998,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 286.776,
+            "minutes": 294.1666666666667,
+            "liters": 11.164237333333332,
+            "per100": 3.8930166169181986,
+            "majorPercent": 94.89497029040086,
+            "localKm": 14.640000000000043,
+            "classes": {
+              "unclassified": 9.134,
+              "secondary": 4.042999999999998,
+              "residential": 5.0779999999999985,
+              "living_street": 0.388,
+              "tertiary": 25.45800000000001,
+              "primary": 38.89800000000005,
+              "primary_link": 0.128,
+              "motorway_link": 3.2659999999999996,
+              "motorway": 200.34299999999993,
+              "service": 0.04
+            }
+          },
+          {
+            "role": "alternative",
+            "label": "Alternative",
+            "candidate": "pool1k1",
+            "km": 287.444,
+            "minutes": 296.5,
+            "liters": 11.821576,
+            "per100": 4.112653595135052,
+            "majorPercent": 96.44522063428006,
+            "localKm": 10.218000000000018,
+            "classes": {
+              "unclassified": 3.714,
+              "secondary": 52.48700000000001,
+              "residential": 6.116000000000003,
+              "living_street": 0.388,
+              "tertiary": 13.543999999999999,
+              "primary": 80.7650000000001,
+              "motorway_link": 4.602000000000001,
+              "motorway": 99.62700000000005,
+              "trunk": 25.337,
+              "trunk_link": 0.8640000000000001
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Rapide estim\u00e9",
+            "candidate": "fast",
+            "km": 285.413,
+            "minutes": 204.33333333333334,
+            "liters": 16.977957333333332,
+            "per100": 5.948557820888793,
+            "majorPercent": 99.05995872647708,
+            "localKm": 2.6829999999999927,
+            "classes": {
+              "unclassified": 0.30699999999999994,
+              "secondary": 14.198000000000002,
+              "primary": 46.312999999999995,
+              "primary_link": 0.612,
+              "tertiary": 10.829,
+              "motorway_link": 4.075000000000001,
+              "trunk": 3.499,
+              "motorway": 203.20399999999995,
+              "service": 0.16600000000000004,
+              "residential": 2.1099999999999994,
+              "living_street": 0.10000000000000002
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 3253
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 165
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 159
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 7540
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 171
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 213
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 197
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 181
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 120
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 112
+          }
+        ],
+        "errors": []
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 286.776,
+          "minutes": 297.95,
+          "liters": 11.105952888888888,
+          "per100": 3.8726925854635277,
+          "majorPercent": 94.89497029040086,
+          "localKm": 14.640000000000043,
+          "classes": {
+            "unclassified": 9.134,
+            "secondary": 4.042999999999998,
+            "residential": 5.0779999999999985,
+            "living_street": 0.388,
+            "tertiary": 25.45800000000001,
+            "primary": 38.89800000000005,
+            "primary_link": 0.128,
+            "motorway_link": 3.2659999999999996,
+            "motorway": 200.34299999999993,
+            "service": 0.04
+          }
+        },
+        {
+          "oldRole": "alternative",
+          "oldCandidate": "pool1k1",
+          "label": "Old geometry / new model",
+          "km": 287.444,
+          "minutes": 297.8333333333333,
+          "liters": 11.797730666666666,
+          "per100": 4.104357950302203,
+          "majorPercent": 96.44522063428006,
+          "localKm": 10.218000000000018,
+          "classes": {
+            "unclassified": 3.714,
+            "secondary": 52.48700000000001,
+            "residential": 6.116000000000003,
+            "living_street": 0.388,
+            "tertiary": 13.543999999999999,
+            "primary": 80.7650000000001,
+            "motorway_link": 4.602000000000001,
+            "motorway": 99.62700000000005,
+            "trunk": 25.337,
+            "trunk_link": 0.8640000000000001
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 20746.603898,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "compromise",
+            "km": 272.314,
+            "minutes": 265.7,
+            "liters": 11.195209777777778,
+            "per100": 4.111139999330838,
+            "majorPercent": 99.2784065453851,
+            "localKm": 1.9650000000000318,
+            "classes": {
+              "unclassified": 0.131,
+              "secondary": 13.27,
+              "tertiary": 9.082999999999995,
+              "primary": 68.29200000000009,
+              "motorway_link": 3.4379999999999997,
+              "motorway": 176.26599999999988,
+              "residential": 1.734,
+              "living_street": 0.10000000000000002
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "fast",
+            "km": 289.76,
+            "minutes": 241.23333333333332,
+            "liters": 12.371167111111111,
+            "per100": 4.269453033928462,
+            "majorPercent": 99.13411098840416,
+            "localKm": 2.5090000000000714,
+            "classes": {
+              "unclassified": 0.131,
+              "secondary": 11.455000000000002,
+              "primary": 46.998,
+              "primary_link": 0.19799999999999998,
+              "motorway_link": 4.233000000000001,
+              "trunk": 3.499,
+              "motorway": 216.99499999999995,
+              "tertiary": 3.872999999999998,
+              "residential": 2.2779999999999996,
+              "living_street": 0.10000000000000002
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "fast",
+            "km": 289.76,
+            "minutes": 196.68333333333334,
+            "liters": 17.234124444444443,
+            "per100": 5.9477237867353825,
+            "majorPercent": 99.13411098840416,
+            "localKm": 2.5090000000000714,
+            "classes": {
+              "unclassified": 0.131,
+              "secondary": 11.455000000000002,
+              "primary": 46.998,
+              "primary_link": 0.19799999999999998,
+              "motorway_link": 4.233000000000001,
+              "trunk": 3.499,
+              "motorway": 216.99499999999995,
+              "tertiary": 3.872999999999998,
+              "residential": 2.2779999999999996,
+              "living_street": 0.10000000000000002
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 5154
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 230
+          },
+          {
+            "tag": "fast-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 228
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 224
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 5275
+          },
+          {
+            "tag": "compromise-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 187
+          },
+          {
+            "tag": "compromise-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 157
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 156
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 7055
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 183
+          },
+          {
+            "tag": "pool1k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 197
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 189
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 201
+          },
+          {
+            "tag": "pool1k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 209
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 187
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 142
+          },
+          {
+            "tag": "pool1k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 139
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 137
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "pau-bayonne-local",
+      "from": {
+        "lon": -0.3708,
+        "lat": 43.2951
+      },
+      "to": {
+        "lon": -1.4748,
+        "lat": 43.4929
+      },
+      "noHighways": true,
+      "noTolls": true,
+      "0822": {
+        "elapsedMs": 2906.164466999995,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "pool1k0",
+            "km": 106.539,
+            "minutes": 143.81666666666666,
+            "liters": 4.76992,
+            "per100": 4.4771585991984155,
+            "majorPercent": 93.44746994058512,
+            "localKm": 6.981000000000009,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.3750000000000002,
+              "tertiary": 20.397999999999996,
+              "secondary": 23.303000000000015,
+              "service": 0.07400000000000001,
+              "primary": 55.85700000000001,
+              "unclassified": 5.3759999999999994
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "pool1k2",
+            "km": 111.855,
+            "minutes": 156.35,
+            "liters": 4.7883146666666665,
+            "per100": 4.280823089416357,
+            "majorPercent": 84.83393679316973,
+            "localKm": 16.964000000000013,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 3.7230000000000008,
+              "tertiary": 27.834999999999994,
+              "secondary": 24.258000000000006,
+              "primary": 42.79800000000003,
+              "unclassified": 13.085
+            }
+          },
+          {
+            "role": "alternative",
+            "label": "Alternative",
+            "candidate": "pool1k1",
+            "km": 113.994,
+            "minutes": 149.08333333333334,
+            "liters": 4.9162213333333336,
+            "per100": 4.312701838108438,
+            "majorPercent": 87.25897854273032,
+            "localKm": 14.524000000000001,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 3.0050000000000003,
+              "tertiary": 35.508999999999986,
+              "secondary": 41.71800000000003,
+              "service": 0.07400000000000001,
+              "primary": 22.243,
+              "unclassified": 11.289000000000001
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 778
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 79
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 70
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 1319
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 76
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 87
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 85
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 82
+          }
+        ],
+        "errors": []
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 106.539,
+          "minutes": 145.86666666666667,
+          "liters": 4.734747111111111,
+          "per100": 4.444144502117639,
+          "majorPercent": 93.44746994058512,
+          "localKm": 6.981000000000009,
+          "classes": {
+            "living_street": 0.156,
+            "residential": 1.3750000000000002,
+            "tertiary": 20.397999999999996,
+            "secondary": 23.303000000000015,
+            "service": 0.07400000000000001,
+            "primary": 55.85700000000001,
+            "unclassified": 5.3759999999999994
+          }
+        },
+        {
+          "oldRole": "compromise",
+          "oldCandidate": "pool1k2",
+          "label": "Old geometry / new model",
+          "km": 111.855,
+          "minutes": 160.81666666666666,
+          "liters": 4.707080888888889,
+          "per100": 4.208198908308872,
+          "majorPercent": 84.83393679316973,
+          "localKm": 16.964000000000013,
+          "classes": {
+            "living_street": 0.156,
+            "residential": 3.7230000000000008,
+            "tertiary": 27.834999999999994,
+            "secondary": 24.258000000000006,
+            "primary": 42.79800000000003,
+            "unclassified": 13.085
+          }
+        },
+        {
+          "oldRole": "alternative",
+          "oldCandidate": "pool1k1",
+          "label": "Old geometry / new model",
+          "km": 113.994,
+          "minutes": 153.81666666666666,
+          "liters": 4.883270666666666,
+          "per100": 4.283796223193033,
+          "majorPercent": 87.25897854273032,
+          "localKm": 14.524000000000001,
+          "classes": {
+            "living_street": 0.156,
+            "residential": 3.0050000000000003,
+            "tertiary": 35.508999999999986,
+            "secondary": 41.71800000000003,
+            "service": 0.07400000000000001,
+            "primary": 22.243,
+            "unclassified": 11.289000000000001
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 5286.349692,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "\u00c9co",
+            "candidate": "compromise",
+            "km": 107.702,
+            "minutes": 136.15,
+            "liters": 4.783766222222222,
+            "per100": 4.441668884721009,
+            "majorPercent": 98.86260236578708,
+            "localKm": 1.2249999999999943,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 0.9950000000000003,
+              "tertiary": 30.04099999999999,
+              "secondary": 35.117000000000026,
+              "service": 0.07400000000000001,
+              "primary": 41.31900000000001
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "compromise",
+            "km": 107.702,
+            "minutes": 135.2,
+            "liters": 4.890332444444445,
+            "per100": 4.540614328837389,
+            "majorPercent": 98.86260236578708,
+            "localKm": 1.2249999999999943,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 0.9950000000000003,
+              "tertiary": 30.04099999999999,
+              "secondary": 35.117000000000026,
+              "service": 0.07400000000000001,
+              "primary": 41.31900000000001
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "fast",
+            "km": 109.091,
+            "minutes": 134.3,
+            "liters": 4.926697333333333,
+            "per100": 4.516135458776007,
+            "majorPercent": 98.28675142770715,
+            "localKm": 1.8689999999999998,
+            "classes": {
+              "living_street": 0.156,
+              "residential": 1.7130000000000003,
+              "tertiary": 18.417999999999996,
+              "secondary": 35.79300000000002,
+              "primary": 53.011000000000024
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 1818
+          },
+          {
+            "tag": "fast-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 67
+          },
+          {
+            "tag": "fast-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 67
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 933
+          },
+          {
+            "tag": "compromise-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 80
+          },
+          {
+            "tag": "compromise-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 80
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 1108
+          },
+          {
+            "tag": "pool1k0-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 77
+          },
+          {
+            "tag": "pool1k0-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 89
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "pool1k1-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 67
+          },
+          {
+            "tag": "pool1k1-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 69
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 68
+          },
+          {
+            "tag": "pool1k2-v75",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 74
+          },
+          {
+            "tag": "pool1k2-v85",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "extreme-control",
+      "from": {
+        "lon": 2.2339,
+        "lat": 43.6082
+      },
+      "to": {
+        "lon": 2.3091667,
+        "lat": 43.5697222
+      },
+      "extreme": true,
+      "0822": {
+        "elapsedMs": 821.564535000005,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "Extremiling",
+            "candidate": "pool1k0",
+            "km": 8.618,
+            "minutes": 17.9,
+            "liters": 0.5518093888888889,
+            "per100": 6.402986642943709,
+            "majorPercent": 67.60269203991645,
+            "localKm": 2.7920000000000007,
+            "classes": {
+              "residential": 2.4929999999999994,
+              "tertiary": 0.189,
+              "living_street": 0.16799999999999998,
+              "tertiary_link": 0.014,
+              "primary": 2.2329999999999997,
+              "secondary": 3.39,
+              "unclassified": 0.131
+            }
+          },
+          {
+            "role": "compromise",
+            "label": "Compromis",
+            "candidate": "pool2k2",
+            "km": 9.215,
+            "minutes": 20.083333333333332,
+            "liters": 0.5658272222222223,
+            "per100": 6.140284560197745,
+            "majorPercent": 68.24742268041237,
+            "localKm": 2.926,
+            "classes": {
+              "residential": 2.6269999999999993,
+              "tertiary": 1.8319999999999999,
+              "living_street": 0.16799999999999998,
+              "primary": 1.067,
+              "secondary": 3.39,
+              "unclassified": 0.131
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 43
+          },
+          {
+            "tag": "fast-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 76
+          },
+          {
+            "tag": "pool1k0-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool1k1-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 18
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          },
+          {
+            "tag": "pool1k2-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool2",
+            "op": "pool",
+            "status": "ok",
+            "ms": 88
+          },
+          {
+            "tag": "pool2k0-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool2k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool2k1-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 19
+          },
+          {
+            "tag": "pool2k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool2k2-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 18
+          },
+          {
+            "tag": "pool2k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 18
+          },
+          {
+            "tag": "pool4",
+            "op": "pool",
+            "status": "ok",
+            "ms": 138
+          },
+          {
+            "tag": "pool4k0-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool4k1-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k2-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 18
+          },
+          {
+            "tag": "pool4k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool4k3-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool4k3-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "corridor",
+            "op": "pool",
+            "status": "error",
+            "ms": 0
+          }
+        ],
+        "errors": [
+          "ParseException hypercruise-306-thermal.brf at line 1: For input string: \"2.270254651120011,43.58850249883517,700\""
+        ]
+      },
+      "oldGeometryNewModel": [
+        {
+          "oldRole": "economy",
+          "oldCandidate": "pool1k0",
+          "label": "Old geometry / new model",
+          "km": 8.618,
+          "minutes": 17.9,
+          "liters": 0.5518093888888889,
+          "per100": 6.402986642943709,
+          "majorPercent": 67.60269203991645,
+          "localKm": 2.7920000000000007,
+          "classes": {
+            "residential": 2.4929999999999994,
+            "tertiary": 0.189,
+            "living_street": 0.16799999999999998,
+            "tertiary_link": 0.014,
+            "primary": 2.2329999999999997,
+            "secondary": 3.39,
+            "unclassified": 0.131
+          }
+        },
+        {
+          "oldRole": "compromise",
+          "oldCandidate": "pool2k2",
+          "label": "Old geometry / new model",
+          "km": 9.215,
+          "minutes": 20.083333333333332,
+          "liters": 0.5658272222222223,
+          "per100": 6.140284560197745,
+          "majorPercent": 68.24742268041237,
+          "localKm": 2.926,
+          "classes": {
+            "residential": 2.6269999999999993,
+            "tertiary": 1.8319999999999999,
+            "living_street": 0.16799999999999998,
+            "primary": 1.067,
+            "secondary": 3.39,
+            "unclassified": 0.131
+          }
+        }
+      ],
+      "0823": {
+        "elapsedMs": 748.9196259999953,
+        "cards": [
+          {
+            "role": "economy",
+            "label": "Extremiling",
+            "candidate": "fast",
+            "km": 8.526,
+            "minutes": 16.416666666666668,
+            "liters": 0.5508179444444444,
+            "per100": 6.460449735449735,
+            "majorPercent": 74.72437250762374,
+            "localKm": 2.1550000000000002,
+            "classes": {
+              "residential": 1.8209999999999997,
+              "tertiary": 0.189,
+              "service": 0.035,
+              "living_street": 0.16799999999999998,
+              "tertiary_link": 0.014,
+              "primary": 2.2329999999999997,
+              "secondary": 3.935,
+              "unclassified": 0.131
+            }
+          },
+          {
+            "role": "fast",
+            "label": "Le plus rapide",
+            "candidate": "fast",
+            "km": 8.526,
+            "minutes": 16.116666666666667,
+            "liters": 0.6062303333333333,
+            "per100": 7.110372194854953,
+            "majorPercent": 74.72437250762374,
+            "localKm": 2.1550000000000002,
+            "classes": {
+              "residential": 1.8209999999999997,
+              "tertiary": 0.189,
+              "service": 0.035,
+              "living_street": 0.16799999999999998,
+              "tertiary_link": 0.014,
+              "primary": 2.2329999999999997,
+              "secondary": 3.935,
+              "unclassified": 0.131
+            }
+          }
+        ],
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 53
+          },
+          {
+            "tag": "fast-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 78
+          },
+          {
+            "tag": "pool1k0-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool1k1-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool1k2-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool2",
+            "op": "pool",
+            "status": "ok",
+            "ms": 79
+          },
+          {
+            "tag": "pool2k0-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          },
+          {
+            "tag": "pool2k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool2k1-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool2k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool2k2-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool2k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool4",
+            "op": "pool",
+            "status": "ok",
+            "ms": 117
+          },
+          {
+            "tag": "pool4k0-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool4k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool4k1-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool4k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 14
+          },
+          {
+            "tag": "pool4k2-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool4k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "pool4k3-v65",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool4k3-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 15
+          },
+          {
+            "tag": "corridor",
+            "op": "pool",
+            "status": "error",
+            "ms": 0
+          }
+        ],
+        "errors": [
+          "ParseException hypercruise-306-thermal.brf at line 1: For input string: \"2.2699186626926666,43.58887800386202,700\""
+        ]
+      }
+    }
+  ]
+}

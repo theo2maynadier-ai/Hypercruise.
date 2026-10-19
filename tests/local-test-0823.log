@@ -1,0 +1,21 @@
+PASS local adapter, native fuel authority, invalidation, reference replay fixture, distinct routes, duplicate driving modes, hard exclusions, missing data, GPS/GPX recorder, script syntax and all UI IDs.
+{
+  "ecoKm": 413.117,
+  "ecoLiters": 19.04997511111111,
+  "referenceKm": 418.043,
+  "referenceLiters": 23.31015288888889,
+  "cards": [
+    {
+      "mode": "extreme",
+      "rank": "green",
+      "km": 413.117,
+      "savings": 7.455311111111115
+    },
+    {
+      "mode": "reference",
+      "rank": "red",
+      "km": 418.043,
+      "savings": 0
+    }
+  ]
+}

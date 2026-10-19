@@ -1,0 +1,10 @@
+signing/
+output/
+build/
+.git/
+**/node_modules/
+**/__pycache__/
+*.apk
+*.p12
+*.jks
+*.pem

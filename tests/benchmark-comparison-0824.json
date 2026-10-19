@@ -1,0 +1,1994 @@
+{
+  "created": "2026-10-19T10:29:24.404Z",
+  "version": "0.8.24",
+  "price": 1.75,
+  "rows": [
+    {
+      "id": "pau-urban",
+      "from": {
+        "lon": -0.4099,
+        "lat": 43.3218
+      },
+      "to": {
+        "lon": -0.3249,
+        "lat": 43.2939
+      },
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Éco",
+          "mode": "eco",
+          "km": 10.024,
+          "minutes": 26.183333333333334,
+          "liters": 0.5931703888888888,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.0380481805555555,
+            "tollEuros": 0,
+            "totalEuros": 1.0380481805555555,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0.31584437499999996
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_known_total_cost_with_time_bound"
+          ]
+        },
+        {
+          "role": "compromise",
+          "label": "Compromis",
+          "mode": "compromise",
+          "km": 14.096,
+          "minutes": 23.05,
+          "liters": 0.7736528888888888,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.3538925555555554,
+            "tollEuros": 0,
+            "totalEuros": 1.3538925555555554,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "no_worthwhile_compromise_same_as_fastest"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 14.096,
+          "minutes": 23.05,
+          "liters": 0.7736528888888888,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.3538925555555554,
+            "tollEuros": 0,
+            "totalEuros": 1.3538925555555554,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 505
+          },
+          {
+            "tag": "fast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 91
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 238
+          },
+          {
+            "tag": "compromise-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 66
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 62
+          },
+          {
+            "tag": "legalTwo",
+            "op": "single",
+            "status": "ok",
+            "ms": 186
+          },
+          {
+            "tag": "legalTwo-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 49
+          },
+          {
+            "tag": "legalTwo-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 53
+          },
+          {
+            "tag": "freeFast",
+            "op": "single",
+            "status": "ok",
+            "ms": 268
+          },
+          {
+            "tag": "freeFast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 53
+          },
+          {
+            "tag": "freeFast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 59
+          },
+          {
+            "tag": "mixedToll",
+            "op": "single",
+            "status": "ok",
+            "ms": 128
+          },
+          {
+            "tag": "mixedToll-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 41
+          },
+          {
+            "tag": "mixedToll-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 35
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 265
+          },
+          {
+            "tag": "pool1k0-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 33
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 34
+          },
+          {
+            "tag": "pool1k1-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 34
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 38
+          },
+          {
+            "tag": "pool1k2-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 35
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 38
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 2718.3355650000003
+    },
+    {
+      "id": "toulouse-cross",
+      "from": {
+        "lon": 1.493,
+        "lat": 43.613
+      },
+      "to": {
+        "lon": 1.384,
+        "lat": 43.604
+      },
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Éco",
+          "mode": "eco",
+          "km": 17.588,
+          "minutes": 24.183333333333334,
+          "liters": 0.7907190555555556,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.3837583472222221,
+            "tollEuros": 0,
+            "totalEuros": 1.3837583472222221,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0.12176081944444461
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_known_total_cost_with_time_bound"
+          ]
+        },
+        {
+          "role": "compromise",
+          "label": "Compromis",
+          "mode": "compromise",
+          "km": 18.207,
+          "minutes": 21.333333333333332,
+          "liters": 0.8602966666666667,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.5055191666666667,
+            "tollEuros": 0,
+            "totalEuros": 1.5055191666666667,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "no_worthwhile_compromise_same_as_fastest"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 18.207,
+          "minutes": 21.333333333333332,
+          "liters": 0.8602966666666667,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.5055191666666667,
+            "tollEuros": 0,
+            "totalEuros": 1.5055191666666667,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 495
+          },
+          {
+            "tag": "fast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 137
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 120
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 315
+          },
+          {
+            "tag": "compromise-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 112
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 104
+          },
+          {
+            "tag": "legalTwo",
+            "op": "single",
+            "status": "ok",
+            "ms": 291
+          },
+          {
+            "tag": "legalTwo-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 131
+          },
+          {
+            "tag": "legalTwo-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 109
+          },
+          {
+            "tag": "freeFast",
+            "op": "single",
+            "status": "ok",
+            "ms": 353
+          },
+          {
+            "tag": "freeFast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 108
+          },
+          {
+            "tag": "freeFast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 106
+          },
+          {
+            "tag": "mixedToll",
+            "op": "single",
+            "status": "ok",
+            "ms": 276
+          },
+          {
+            "tag": "mixedToll-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 105
+          },
+          {
+            "tag": "mixedToll-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 102
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 620
+          },
+          {
+            "tag": "pool1k0-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 108
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 108
+          },
+          {
+            "tag": "pool1k1-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 108
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 105
+          },
+          {
+            "tag": "pool1k2-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 110
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 106
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 4386.778244000001
+    },
+    {
+      "id": "pau-bayonne",
+      "from": {
+        "lon": -0.3708,
+        "lat": 43.2951
+      },
+      "to": {
+        "lon": -1.4748,
+        "lat": 43.4929
+      },
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Éco",
+          "mode": "eco",
+          "km": 112.933,
+          "minutes": 88.73333333333333,
+          "liters": 5.872282222222222,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 10.276493888888888,
+            "tollEuros": 9.3,
+            "totalEuros": 19.57649388888889,
+            "toll": {
+              "status": "priced",
+              "complete": true,
+              "euros": 9.3,
+              "cents": 930,
+              "charges": [
+                {
+                  "label": "Lescar → Sames",
+                  "cents": 930,
+                  "from": 11611.53178477759,
+                  "to": 82587.50137976641,
+                  "kind": "closed"
+                }
+              ],
+              "events": [
+                {
+                  "key": "A64|LESCAR",
+                  "label": "Lescar",
+                  "lat": 43.3452593,
+                  "lon": -0.4186413,
+                  "kind": "closed",
+                  "barrier": false,
+                  "distance": 11611.53178477759,
+                  "meters": 6.431673746264788
+                },
+                {
+                  "key": "A64|SAMES",
+                  "label": "Sames",
+                  "lat": 43.5298237,
+                  "lon": -1.186927,
+                  "kind": "closed",
+                  "barrier": true,
+                  "distance": 82587.50137976641,
+                  "meters": 2.5700660240748654
+                }
+              ],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 3.0147753333333327
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_known_total_cost_with_time_bound"
+          ]
+        },
+        {
+          "role": "compromise",
+          "label": "Compromis",
+          "mode": "compromise",
+          "km": 115.489,
+          "minutes": 79.36666666666666,
+          "liters": 7.366439555555556,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 12.891269222222222,
+            "tollEuros": 9.7,
+            "totalEuros": 22.591269222222223,
+            "toll": {
+              "status": "priced",
+              "complete": true,
+              "euros": 9.7,
+              "cents": 970,
+              "charges": [
+                {
+                  "label": "Pau Centre → Sames",
+                  "cents": 970,
+                  "from": 7370.840796279201,
+                  "to": 84249.32728095264,
+                  "kind": "closed"
+                }
+              ],
+              "events": [
+                {
+                  "key": "A64|PAU CENTRE",
+                  "label": "Pau Centre",
+                  "lat": 43.3304182,
+                  "lon": -0.3508327,
+                  "kind": "closed",
+                  "barrier": false,
+                  "distance": 7370.840796279201,
+                  "meters": 0.08991658686018336
+                },
+                {
+                  "key": "A64|SAMES",
+                  "label": "Sames",
+                  "lat": 43.5298237,
+                  "lon": -1.186927,
+                  "kind": "closed",
+                  "barrier": true,
+                  "distance": 84249.32728095264,
+                  "meters": 2.5700660240748654
+                }
+              ],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "no_worthwhile_compromise_same_as_fastest"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 115.489,
+          "minutes": 79.36666666666666,
+          "liters": 7.366439555555556,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 12.891269222222222,
+            "tollEuros": 9.7,
+            "totalEuros": 22.591269222222223,
+            "toll": {
+              "status": "priced",
+              "complete": true,
+              "euros": 9.7,
+              "cents": 970,
+              "charges": [
+                {
+                  "label": "Pau Centre → Sames",
+                  "cents": 970,
+                  "from": 7370.840796279201,
+                  "to": 84249.32728095264,
+                  "kind": "closed"
+                }
+              ],
+              "events": [
+                {
+                  "key": "A64|PAU CENTRE",
+                  "label": "Pau Centre",
+                  "lat": 43.3304182,
+                  "lon": -0.3508327,
+                  "kind": "closed",
+                  "barrier": false,
+                  "distance": 7370.840796279201,
+                  "meters": 0.08991658686018336
+                },
+                {
+                  "key": "A64|SAMES",
+                  "label": "Sames",
+                  "lat": 43.5298237,
+                  "lon": -1.186927,
+                  "kind": "closed",
+                  "barrier": true,
+                  "distance": 84249.32728095264,
+                  "meters": 2.5700660240748654
+                }
+              ],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 588
+          },
+          {
+            "tag": "fast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 89
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 68
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 1158
+          },
+          {
+            "tag": "compromise-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 83
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 82
+          },
+          {
+            "tag": "legalTwo",
+            "op": "single",
+            "status": "ok",
+            "ms": 1172
+          },
+          {
+            "tag": "legalTwo-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 76
+          },
+          {
+            "tag": "legalTwo-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 89
+          },
+          {
+            "tag": "freeFast",
+            "op": "single",
+            "status": "ok",
+            "ms": 1687
+          },
+          {
+            "tag": "freeFast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 74
+          },
+          {
+            "tag": "freeFast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "mixedToll",
+            "op": "single",
+            "status": "ok",
+            "ms": 1255
+          },
+          {
+            "tag": "mixedToll-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "mixedToll-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 84
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 2090
+          },
+          {
+            "tag": "pool1k0-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 103
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 94
+          },
+          {
+            "tag": "pool1k1-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 85
+          },
+          {
+            "tag": "pool1k2-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 102
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 101
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 10684.891346
+    },
+    {
+      "id": "valdurenque-pau",
+      "from": {
+        "lon": 2.3091667,
+        "lat": 43.5697222
+      },
+      "to": {
+        "lon": -0.3708,
+        "lat": 43.2944
+      },
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Éco",
+          "mode": "eco",
+          "km": 284.425,
+          "minutes": 214.4,
+          "liters": 14.546444444444445,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 25.45627777777778,
+            "tollEuros": 14.4,
+            "totalEuros": 39.85627777777778,
+            "toll": {
+              "status": "priced",
+              "complete": true,
+              "euros": 14.4,
+              "cents": 1440,
+              "charges": [
+                {
+                  "label": "Toulouse Est vers Toulouse",
+                  "cents": 170,
+                  "from": 78846.17371607127,
+                  "to": 78846.17371607127,
+                  "kind": "open"
+                },
+                {
+                  "label": "Muret depuis Toulouse",
+                  "cents": 180,
+                  "from": 106571.09229714186,
+                  "to": 106571.09229714186,
+                  "kind": "open"
+                },
+                {
+                  "label": "Lestelle → Soumoulou",
+                  "cents": 1090,
+                  "from": 166962.42894099516,
+                  "to": 267794.16857252637,
+                  "kind": "closed"
+                }
+              ],
+              "events": [
+                {
+                  "key": "A68|TOULOUSE EST",
+                  "label": "Toulouse Est vers Toulouse",
+                  "lat": 43.6475283,
+                  "lon": 1.5075693,
+                  "kind": "open",
+                  "barrier": true,
+                  "cents": 170,
+                  "distance": 78846.17371607127,
+                  "meters": 1.7405172187324247
+                },
+                {
+                  "key": "A64|MURET",
+                  "label": "Muret depuis Toulouse",
+                  "lat": 43.5055827,
+                  "lon": 1.3517759,
+                  "kind": "open",
+                  "barrier": true,
+                  "cents": 180,
+                  "distance": 106571.09229714186,
+                  "meters": 3.9563257851640086
+                },
+                {
+                  "key": "A64|LESTELLE",
+                  "label": "Lestelle",
+                  "lat": 43.1182856,
+                  "lon": 0.9004894,
+                  "kind": "closed",
+                  "barrier": true,
+                  "distance": 166962.42894099516,
+                  "meters": 0.9659142623762944
+                },
+                {
+                  "key": "A64|SOUMOULOU",
+                  "label": "Soumoulou",
+                  "lat": 43.2721452,
+                  "lon": -0.2005898,
+                  "kind": "closed",
+                  "barrier": false,
+                  "distance": 267794.16857252637,
+                  "meters": 0.18695447996842285
+                }
+              ],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 5.803439999999995
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_known_total_cost_with_time_bound"
+          ]
+        },
+        {
+          "role": "compromise",
+          "label": "Compromis",
+          "mode": "compromise",
+          "km": 289.76,
+          "minutes": 196.68333333333334,
+          "liters": 17.234124444444443,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 30.159717777777775,
+            "tollEuros": 15.5,
+            "totalEuros": 45.65971777777777,
+            "toll": {
+              "status": "priced",
+              "complete": true,
+              "euros": 15.5,
+              "cents": 1550,
+              "charges": [
+                {
+                  "label": "Toulouse Est vers Toulouse",
+                  "cents": 170,
+                  "from": 78846.17371607127,
+                  "to": 78846.17371607127,
+                  "kind": "open"
+                },
+                {
+                  "label": "Muret depuis Toulouse",
+                  "cents": 180,
+                  "from": 106571.09229714186,
+                  "to": 106571.09229714186,
+                  "kind": "open"
+                },
+                {
+                  "label": "Lestelle → Pau Centre",
+                  "cents": 1200,
+                  "from": 166962.42894099516,
+                  "to": 281523.5646248499,
+                  "kind": "closed"
+                }
+              ],
+              "events": [
+                {
+                  "key": "A68|TOULOUSE EST",
+                  "label": "Toulouse Est vers Toulouse",
+                  "lat": 43.6475283,
+                  "lon": 1.5075693,
+                  "kind": "open",
+                  "barrier": true,
+                  "cents": 170,
+                  "distance": 78846.17371607127,
+                  "meters": 1.7405172187324247
+                },
+                {
+                  "key": "A64|MURET",
+                  "label": "Muret depuis Toulouse",
+                  "lat": 43.5055827,
+                  "lon": 1.3517759,
+                  "kind": "open",
+                  "barrier": true,
+                  "cents": 180,
+                  "distance": 106571.09229714186,
+                  "meters": 3.9563257851640086
+                },
+                {
+                  "key": "A64|LESTELLE",
+                  "label": "Lestelle",
+                  "lat": 43.1182856,
+                  "lon": 0.9004894,
+                  "kind": "closed",
+                  "barrier": true,
+                  "distance": 166962.42894099516,
+                  "meters": 0.9659142623762944
+                },
+                {
+                  "key": "A64|PAU CENTRE",
+                  "label": "Pau Centre",
+                  "lat": 43.3306161,
+                  "lon": -0.3507446,
+                  "kind": "closed",
+                  "barrier": false,
+                  "distance": 281523.5646248499,
+                  "meters": 0.17580369105355076
+                }
+              ],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "no_worthwhile_compromise_same_as_fastest"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 289.76,
+          "minutes": 196.68333333333334,
+          "liters": 17.234124444444443,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 30.159717777777775,
+            "tollEuros": 15.5,
+            "totalEuros": 45.65971777777777,
+            "toll": {
+              "status": "priced",
+              "complete": true,
+              "euros": 15.5,
+              "cents": 1550,
+              "charges": [
+                {
+                  "label": "Toulouse Est vers Toulouse",
+                  "cents": 170,
+                  "from": 78846.17371607127,
+                  "to": 78846.17371607127,
+                  "kind": "open"
+                },
+                {
+                  "label": "Muret depuis Toulouse",
+                  "cents": 180,
+                  "from": 106571.09229714186,
+                  "to": 106571.09229714186,
+                  "kind": "open"
+                },
+                {
+                  "label": "Lestelle → Pau Centre",
+                  "cents": 1200,
+                  "from": 166962.42894099516,
+                  "to": 281523.5646248499,
+                  "kind": "closed"
+                }
+              ],
+              "events": [
+                {
+                  "key": "A68|TOULOUSE EST",
+                  "label": "Toulouse Est vers Toulouse",
+                  "lat": 43.6475283,
+                  "lon": 1.5075693,
+                  "kind": "open",
+                  "barrier": true,
+                  "cents": 170,
+                  "distance": 78846.17371607127,
+                  "meters": 1.7405172187324247
+                },
+                {
+                  "key": "A64|MURET",
+                  "label": "Muret depuis Toulouse",
+                  "lat": 43.5055827,
+                  "lon": 1.3517759,
+                  "kind": "open",
+                  "barrier": true,
+                  "cents": 180,
+                  "distance": 106571.09229714186,
+                  "meters": 3.9563257851640086
+                },
+                {
+                  "key": "A64|LESTELLE",
+                  "label": "Lestelle",
+                  "lat": 43.1182856,
+                  "lon": 0.9004894,
+                  "kind": "closed",
+                  "barrier": true,
+                  "distance": 166962.42894099516,
+                  "meters": 0.9659142623762944
+                },
+                {
+                  "key": "A64|PAU CENTRE",
+                  "label": "Pau Centre",
+                  "lat": 43.3306161,
+                  "lon": -0.3507446,
+                  "kind": "closed",
+                  "barrier": false,
+                  "distance": 281523.5646248499,
+                  "meters": 0.17580369105355076
+                }
+              ],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 5012
+          },
+          {
+            "tag": "fast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 193
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 193
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 8057
+          },
+          {
+            "tag": "compromise-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 230
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 230
+          },
+          {
+            "tag": "legalTwo",
+            "op": "single",
+            "status": "ok",
+            "ms": 7872
+          },
+          {
+            "tag": "legalTwo-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 184
+          },
+          {
+            "tag": "legalTwo-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 191
+          },
+          {
+            "tag": "freeFast",
+            "op": "single",
+            "status": "ok",
+            "ms": 9186
+          },
+          {
+            "tag": "freeFast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 222
+          },
+          {
+            "tag": "freeFast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 202
+          },
+          {
+            "tag": "mixedToll",
+            "op": "single",
+            "status": "ok",
+            "ms": 7739
+          },
+          {
+            "tag": "mixedToll-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 155
+          },
+          {
+            "tag": "mixedToll-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 169
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 14131
+          },
+          {
+            "tag": "pool1k0-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 181
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 175
+          },
+          {
+            "tag": "pool1k1-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 104
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 105
+          },
+          {
+            "tag": "pool1k2-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 152
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 153
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 57543.14545799999
+    },
+    {
+      "id": "pau-bayonne-no-tolls",
+      "from": {
+        "lon": -0.3708,
+        "lat": 43.2951
+      },
+      "to": {
+        "lon": -1.4748,
+        "lat": 43.4929
+      },
+      "noTolls": true,
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Éco",
+          "mode": "eco",
+          "km": 107.488,
+          "minutes": 134.21666666666667,
+          "liters": 4.952268444444444,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 8.666469777777777,
+            "tollEuros": 0,
+            "totalEuros": 8.666469777777777,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": {
+            "extraEuros": 0.0030660000000004572,
+            "extraLiters": 0.0017519999999997538,
+            "secondsSaved": 217,
+            "budgetEuros": 0.3,
+            "baselineName": "pool1k0"
+          },
+          "reason": [
+            "small_total_cost_for_time"
+          ]
+        },
+        {
+          "role": "compromise",
+          "label": "Compromis",
+          "mode": "compromise",
+          "km": 107.488,
+          "minutes": 134.21666666666667,
+          "liters": 4.952268444444444,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 8.666469777777777,
+            "tollEuros": 0,
+            "totalEuros": 8.666469777777777,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "no_worthwhile_compromise_same_as_fastest"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 107.488,
+          "minutes": 134.21666666666667,
+          "liters": 4.952268444444444,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 8.666469777777777,
+            "tollEuros": 0,
+            "totalEuros": 8.666469777777777,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 1761
+          },
+          {
+            "tag": "fast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 91
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 93
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 1492
+          },
+          {
+            "tag": "compromise-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 81
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 79
+          },
+          {
+            "tag": "legalTwo",
+            "op": "single",
+            "status": "ok",
+            "ms": 1048
+          },
+          {
+            "tag": "legalTwo-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 74
+          },
+          {
+            "tag": "legalTwo-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 2148
+          },
+          {
+            "tag": "pool1k0-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "pool1k1-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 82
+          },
+          {
+            "tag": "pool1k2-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 73
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 8223.630426999996
+    },
+    {
+      "id": "pau-bayonne-no-motorway",
+      "from": {
+        "lon": -0.3708,
+        "lat": 43.2951
+      },
+      "to": {
+        "lon": -1.4748,
+        "lat": 43.4929
+      },
+      "noHighways": true,
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Éco",
+          "mode": "eco",
+          "km": 107.488,
+          "minutes": 134.21666666666667,
+          "liters": 4.952268444444444,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 8.666469777777777,
+            "tollEuros": 0,
+            "totalEuros": 8.666469777777777,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": {
+            "extraEuros": 0.0030660000000004572,
+            "extraLiters": 0.0017519999999997538,
+            "secondsSaved": 217,
+            "budgetEuros": 0.3,
+            "baselineName": "pool1k0"
+          },
+          "reason": [
+            "small_total_cost_for_time"
+          ]
+        },
+        {
+          "role": "compromise",
+          "label": "Compromis",
+          "mode": "compromise",
+          "km": 107.488,
+          "minutes": 134.21666666666667,
+          "liters": 4.952268444444444,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 8.666469777777777,
+            "tollEuros": 0,
+            "totalEuros": 8.666469777777777,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "no_worthwhile_compromise_same_as_fastest"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 107.488,
+          "minutes": 134.21666666666667,
+          "liters": 4.952268444444444,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 8.666469777777777,
+            "tollEuros": 0,
+            "totalEuros": 8.666469777777777,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 1962
+          },
+          {
+            "tag": "fast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 84
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "compromise",
+            "op": "single",
+            "status": "ok",
+            "ms": 1613
+          },
+          {
+            "tag": "compromise-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 89
+          },
+          {
+            "tag": "compromise-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 71
+          },
+          {
+            "tag": "legalTwo",
+            "op": "single",
+            "status": "ok",
+            "ms": 1197
+          },
+          {
+            "tag": "legalTwo-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "legalTwo-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "freeFast",
+            "op": "single",
+            "status": "ok",
+            "ms": 1764
+          },
+          {
+            "tag": "freeFast-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 84
+          },
+          {
+            "tag": "freeFast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "mixedToll",
+            "op": "single",
+            "status": "ok",
+            "ms": 1671
+          },
+          {
+            "tag": "mixedToll-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 80
+          },
+          {
+            "tag": "mixedToll-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 95
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 2504
+          },
+          {
+            "tag": "pool1k0-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 77
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 77
+          },
+          {
+            "tag": "pool1k1-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 72
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 69
+          },
+          {
+            "tag": "pool1k2-v110",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 75
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 69
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 13389.070578999992
+    },
+    {
+      "id": "extreme-control",
+      "from": {
+        "lon": 2.2339,
+        "lat": 43.6082
+      },
+      "to": {
+        "lon": 2.3091667,
+        "lat": 43.5697222
+      },
+      "extreme": true,
+      "cards": [
+        {
+          "role": "economy",
+          "label": "Extremiling",
+          "mode": "extreme",
+          "km": 9.029,
+          "minutes": 18.05,
+          "liters": 0.6203426111111111,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.0855995694444445,
+            "tollEuros": 0,
+            "totalEuros": 1.0855995694444445,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0.055182652777777674
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "extremiling_separate"
+          ]
+        },
+        {
+          "role": "fast",
+          "label": "Le plus rapide",
+          "mode": "reference",
+          "km": 9.029,
+          "minutes": 17.883333333333333,
+          "liters": 0.6518755555555555,
+          "cost": {
+            "complete": true,
+            "fuelEuros": 1.1407822222222221,
+            "tollEuros": 0,
+            "totalEuros": 1.1407822222222221,
+            "toll": {
+              "status": "no-mapped-toll",
+              "complete": true,
+              "euros": 0,
+              "cents": 0,
+              "charges": [],
+              "events": [],
+              "source": "https://public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/Tarifs_ASF.txt",
+              "locationSource": "https://www.data.gouv.fr/datasets/gares-de-peage-du-reseau-routier-national-concede",
+              "checkedAt": "2026-10-19",
+              "version": "2026-10-19-asf-c1",
+              "vehicleClass": 1,
+              "estimate": true
+            }
+          },
+          "gain": {
+            "available": true,
+            "euros": 0,
+            "reason": null
+          },
+          "timeTradeoff": null,
+          "reason": [
+            "lowest_elapsed_seconds_among_evaluated"
+          ]
+        }
+      ],
+      "diagnostics": {
+        "jobs": [
+          {
+            "tag": "fast",
+            "op": "single",
+            "status": "ok",
+            "ms": 60
+          },
+          {
+            "tag": "fast-v70",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 24
+          },
+          {
+            "tag": "fast-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool1",
+            "op": "pool",
+            "status": "ok",
+            "ms": 103
+          },
+          {
+            "tag": "pool1k0-v70",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 17
+          },
+          {
+            "tag": "pool1k0-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool1k1-v70",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 21
+          },
+          {
+            "tag": "pool1k1-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool1k2-v70",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 16
+          },
+          {
+            "tag": "pool1k2-v130",
+            "op": "fixed",
+            "status": "ok",
+            "ms": 20
+          }
+        ],
+        "errors": [],
+        "snapping": null,
+        "complete": true
+      },
+      "elapsedMs": 360.34460599999875
+    }
+  ]
+}
