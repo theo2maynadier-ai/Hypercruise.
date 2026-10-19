@@ -28,10 +28,31 @@ jobs:
         run: |
           bash security/check-build-env.sh
           bash security/beta-check.sh
+      - name: Verify routing API and mixed-routing tests
+        run: |
+          node - <<'NODE'
+          global.HC = require('./app/assets/core.js');
+          global.HCTolls = require('./app/assets/toll-cost.js');
+          for (const key of ['costBreakdown','savings','rules','allowed']) {
+            if (typeof HC[key] !== 'function') throw Error('Missing HC API: ' + key);
+          }
+          NODE
+          node tests/mixed-routing-0825.cjs
+      - name: Restore persistent signing key
+        env:
+          HYPER_KEYSTORE_B64: ${{ secrets.HYPER_KEYSTORE_B64 }}
+          HYPER_KEYSTORE_PASSWORD: ${{ secrets.HYPER_KEYSTORE_PASSWORD }}
+        run: |
+          test -n "$HYPER_KEYSTORE_B64" && test -n "$HYPER_KEYSTORE_PASSWORD" || { echo 'Missing signing secrets'; exit 1; }
+          mkdir -p signing
+          printf '%s' "$HYPER_KEYSTORE_B64" | base64 -d > signing/hypercruise.p12
+          printf '%s\\n' "$HYPER_KEYSTORE_PASSWORD" > signing/password.txt
+          chmod 600 signing/hypercruise.p12 signing/password.txt
       - name: Build hardened APK and enforce release gate
         env:
           HYPER_SDK: ${{ env.ANDROID_HOME }}
           HYPER_HARDENED: '1'
+          HYPER_REQUIRE_SIGNING_KEY: '1'
         run: bash build.sh
       - name: Publish APK only (never upload signing files or sources)
         uses: actions/upload-artifact@v4
